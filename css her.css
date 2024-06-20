@@ -1,0 +1,54 @@
+.projects {
+  background-color: #f7f7f7; /* light gray background */
+  padding: 40px; /* add some padding to the section */
+  display: flex; /* make the section a flex container */
+  flex-wrap: wrap; /* allow the projects to wrap to the next line */
+  justify-content: center; /* center the projects horizontally */
+}
+
+.projects.project {
+  margin: 20px; /* add some margin to each project */
+  width: calc(25% - 40px); /* make each project 25% of the width, minus the margin */
+  background-color: #fff; /* white background for each project */
+  border: 1px solid #ddd; /* light gray border for each project */
+  border-radius: 10px; /* add some rounded corners to each project */
+  padding: 20px; /* add some padding to each project */
+  display: flex; /* make each project a flex container */
+  flex-direction: column; /* stack the project content vertically */
+  align-items: center; /* center the project content horizontally */
+}
+
+.projects.project img {
+  width: 100%; /* make the image take up the full width of the project */
+  height: 150px; /* set a fixed height for the image */
+  object-fit: cover; /* make the image cover the entire space */
+  border-radius: 10px 10px 0 0; /* add some rounded corners to the image */
+}
+
+.projects.project h3 {
+  margin-top: 0; /* remove the margin top from the h3 element */
+  font-weight: bold; /* make the h3 element bold */
+  font-size: 18px; /* set a font size for the h3 element */
+  color: #337ab7;
+}
+
+.projects.project p {
+  margin-bottom: 20px; /* add some margin bottom to the p element */
+  font-size: 16px; /* set a font size for the p element */
+  color: #666; /* set a text color for the p element */
+}
+
+.projects.project a {
+  text-decoration: none; /* remove the text decoration from the a element */
+  color: #337ab7; /* set a text color for the a element */
+}
+
+.projects.project a:hover {
+  color: #23527c; /* set a hover color for the a element */
+}
+body {
+    background-image: url('.imgher/to/hm.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
